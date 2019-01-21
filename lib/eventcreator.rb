@@ -41,10 +41,9 @@ Commençons, quel est le nom de l'événement ?"
 	def event_create
 		# binding.pry
 		Event.new(@start_date, @length, @title, @attendees)
-		p @start_date
 	end
 end
-EventCreator.new
+# EventCreator.new
 
 # p e.attendees
 # e = Event.new("2019-01-13 09:00", 10, "standup quotidien", [julie, jean])

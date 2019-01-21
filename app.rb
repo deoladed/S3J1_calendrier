@@ -21,4 +21,3 @@ jean = User.find_by_email("jean@jean.com")
 e = EventCreator.new
 # e = Event.new("2019-01-13 09:00", 10, "standup quotidien", [julie, jean])
 puts "Voici l'email du premier attendee de l'événement : #{e.attendees.first}"
-# puts "Voici l'email du premier attendee de l'événement : #{e.to_s}"
